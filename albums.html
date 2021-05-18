@@ -4,9 +4,9 @@
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap.min.js"></script>
-    <script src="jqcrud (3).js"></script>
+    <script src="jqcruda.js"></script>
     <link rel="stylesheet" href="bootstrap.min.css" />
-    <link rel="stylesheet" href="jqstyles.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
   <body class="container">
     <h1>Albums API Client</h1>
@@ -20,7 +20,15 @@
     >
       Add Album
     </button>
-
+    <button
+      class="btn btn-primary btn-lg"
+      data-toggle="modal"
+      data-target="#addModal"
+      onclick="window.location.href='/users.html'"
+      style="margin-left: 700px"
+    >
+      Go to Users
+    </button>
     <!-- Modal -->
     <div
       class="modal fade"
@@ -73,9 +81,7 @@
       </div>
     </div>
 
-    <div id="recipes">
-      Loading ...
-    </div>
+    <div id="recipes">Loading ...</div>
 
     <div
       class="modal fade"

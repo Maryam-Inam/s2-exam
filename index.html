@@ -16,9 +16,26 @@
   </head>
   <body>
     <div class="mydiv" style="margin-top: 100px">
-      <button id="users" style="margin-left: 35%">Users</button>
-      <button id="albums">Albums</button>
-      <div id="result"></div>
+      <button
+        id="users"
+        class="btn btn-primary btn-lg"
+        data-toggle="modal"
+        data-target="#addModal"
+        onclick="window.location.href='/users.html'"
+        style="margin-left: 35%"
+      >
+        Users
+      </button>
+
+      <button
+        id="albums"
+        class="btn btn-primary btn-lg"
+        data-toggle="modal"
+        data-target="#addModal"
+        onclick="window.location.href='/albums.html'"
+      >
+        Albums
+      </button>
     </div>
   </body>
 </html>

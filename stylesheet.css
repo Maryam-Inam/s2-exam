@@ -14,3 +14,7 @@
     margin-left: 10px;
     margin-top: 10px;
 }
+.recipe {
+    border-bottom: 2px dashed blue;
+    margin-bottom: 5px;
+}
